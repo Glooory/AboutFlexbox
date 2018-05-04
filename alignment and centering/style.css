@@ -197,7 +197,7 @@ input::-moz-focus-inner {
     display: flex;
     height: 100vh;
     border: 10px solid mediumseagreen;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .box {
@@ -240,6 +240,7 @@ input::-moz-focus-inner {
 .box7 {
     background: #e74c3c;
     font-size: 40px;
+    align-self: flex-end;
 }
 
 .box8 {
@@ -253,4 +254,5 @@ input::-moz-focus-inner {
 
 .box10 {
     background: #16a085;
+    align-self: center;
 }
