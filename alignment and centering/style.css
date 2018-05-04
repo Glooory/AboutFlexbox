@@ -195,10 +195,9 @@ input::-moz-focus-inner {
 
 .container {
     display: flex;
+    height: 100vh;
     border: 10px solid mediumseagreen;
-    min-height: 100vh;
-    justify-content: space-evenly;
-    flex-direction: column;
+    align-items: center;
 }
 
 .box {
@@ -208,19 +207,22 @@ input::-moz-focus-inner {
     text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.1);
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: baseline;
 }
 
 .box1 {
     background: #1abc9c;
+    font-size: 8px;
 }
 
 .box2 {
     background: #3498db;
+    font-size: 16px;
 }
 
 .box3 {
     background: #9b59b6;
+    font-size: 24px;
 }
 
 .box4 {
@@ -237,6 +239,7 @@ input::-moz-focus-inner {
 
 .box7 {
     background: #e74c3c;
+    font-size: 40px;
 }
 
 .box8 {
@@ -245,6 +248,7 @@ input::-moz-focus-inner {
 
 .box9 {
     background: #2ecc71;
+    font-size: 10px;
 }
 
 .box10 {
